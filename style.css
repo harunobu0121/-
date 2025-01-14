@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 18px;
+    padding: 15px 32px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.fortune-result {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.fortune-result.大吉 {
+    color: #ff6347; /* 赤 */
+}
+
+.fortune-result.中吉 {
+    color: #ff8c00; /* オレンジ */
+}
+
+.fortune-result.小吉 {
+    color: #ffd700; /* 金 */
+}
+
+.fortune-result.吉 {
+    color: #32cd32; /* 緑 */
+}
+
+.fortune-result.末吉 {
+    color: #1e90ff; /* 青 */
+}
+
+.fortune-result.凶 {
+    color: #ff4500; /* オレンジ赤 */
+}
+
+.fortune-result.大凶 {
+    color: #8b0000; /* ダークレッド */
+}
